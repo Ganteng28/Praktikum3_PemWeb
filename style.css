@@ -1,0 +1,43 @@
+@media screen and (max-width: 500px){
+    body {
+        background: blue;
+        color: fuchsia;
+    }
+
+    #container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px){
+    body {
+        background: lightseagreen;
+        color: bisque;
+    }
+
+    #container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px){
+    body {
+        background: midnightblue;
+        color: springgreen;
+    }
+
+    #container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 701px){
+    body {
+        background: greenyellow;
+        color: salmon;
+    }
+
+    #container {
+        width: 50%;
+    }
+}
